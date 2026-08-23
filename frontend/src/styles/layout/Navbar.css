@@ -1,0 +1,227 @@
+.navbar {
+  background: linear-gradient(to bottom, rgba(0,0,0,0.9), rgba(0,0,0,0.7));
+  padding: 1rem 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  backdrop-filter: blur(10px);
+}
+
+.nav-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-link {
+  text-decoration: none;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #e50914;
+}
+
+.logo-icon {
+  font-size: 2rem;
+}
+
+.logo-text {
+  background: linear-gradient(135deg, #e50914, #ff6b6b);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #e50914;
+}
+
+.signin-btn {
+  background-color: #e50914;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+
+.signin-btn:hover {
+  background-color: #c40812;
+  transform: scale(1.05);
+}
+
+.login-btn {
+  background: transparent;
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  padding: 0.6rem 1.25rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+
+.login-btn:hover {
+  border-color: #e50914;
+  color: #ffb3b8;
+  transform: scale(1.05);
+}
+
+.admin-btn {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  padding: 0.6rem 1.25rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+
+.admin-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+}
+
+.auth-buttons {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.signin-link {
+  text-decoration: none;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex: 0 1 400px;
+}
+
+.search-input {
+  flex: 1;
+  min-width: 250px;
+  height: 42px;
+  padding: 0 10px;
+  border: 1px solid rgba(255,255,255,0.25);
+  background: rgba(0,0,0,0.35);
+  color: white;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-family: inherit;
+  transition: all 0.3s;
+  outline: none;
+}
+
+.search-input:focus {
+  border-color: #e50914;
+  background: rgba(0,0,0,0.45);
+}
+
+.search-input::placeholder {
+  color: white;
+}
+
+.search-btn {
+  background-color: #e50914;
+  color: white;
+  border: none;
+  padding: 0.6rem 1rem;
+  margin: 0 0 0 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: all 0.3s;
+}
+
+.search-btn:hover {
+  background-color: #c40812;
+  transform: scale(1.05);
+}
+
+.genre-select {
+  height: 42px;
+  padding: 0 10px;
+  border-radius: 8px;
+  border: 1px solid rgba(255,255,255,0.25);
+  background: rgba(0,0,0,0.35);
+  color: white;
+  font-size: 1rem;
+  font-family: inherit;
+  margin-left: 10px;
+  outline: none;
+}
+
+.genre-select option {
+  color: black;
+}
+
+/* Admin navbar compact styling */
+.navbar-admin {
+  padding: 0.75rem 0;
+}
+
+.nav-container-admin {
+  padding: 0 1.5rem;
+}
+
+.nav-container-admin .nav-links {
+  gap: 1.5rem;
+}
+
+.nav-container-admin .auth-buttons {
+  gap: 0.3rem;
+}
+
+.nav-container-admin .signin-btn,
+.nav-container-admin .login-btn,
+.nav-container-admin .admin-btn {
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+}
+
+.nav-container-admin .search-bar {
+  flex: 0 1 300px;
+}
+
+.nav-container-admin .search-input {
+  min-width: 150px;
+  height: 36px;
+  font-size: 0.9rem;
+}
+
+.nav-container-admin .genre-select {
+  height: 36px;
+  font-size: 0.9rem;
+}
+
+.nav-container-admin .search-btn {
+  padding: 0.5rem 0.8rem;
+  font-size: 1rem;
+}

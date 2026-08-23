@@ -1,0 +1,82 @@
+.login-main {
+  padding: 108px 1rem 2rem;
+  display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #ffe3e3;
+  margin-bottom: 0.5rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #ffe3e3;
+}
+
+p {
+  color: #ddd;
+  margin-bottom: 1rem;
+}
+
+.login-section {
+  width: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 12px;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.02);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.submit-section {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding-top: 1.5rem;
+}
+
+.forgot-password-btn {
+  background: none;
+  border: none;
+  color: #ff6b6b;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.forgot-password-btn:hover {
+  color: #e50914;
+  text-decoration: underline;
+  text-decoration-color: #e50914;
+}
+
+.btn-primary {
+  padding: 0 1rem;
+}
+
+.login-form {
+  width: 75%;
+}
+
+.login-error {
+  width: 100%;
+  background: rgba(255, 107, 107, 0.2);
+  color: #ff6b6b;
+  padding: 0.5rem;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.email-section, .password-section {
+  width: 100%;
+}

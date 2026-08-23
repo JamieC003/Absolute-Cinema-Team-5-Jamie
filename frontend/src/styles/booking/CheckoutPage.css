@@ -1,0 +1,262 @@
+.checkout-page {
+  color: #f4f6f8;
+}
+
+.checkout-main {
+  width: min(1120px, calc(100% - 32px));
+  margin: 0 auto;
+  padding: 120px 0 64px;
+}
+
+.checkout-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+  margin-bottom: 28px;
+}
+
+.checkout-kicker {
+  margin: 0 0 8px;
+  color: #ff6b6b;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.checkout-header h1 {
+  margin: 0;
+  font-size: clamp(30px, 4vw, 44px);
+}
+
+.checkout-subtitle {
+  margin: 10px 0 0;
+  color: #aeb6c2;
+  max-width: 720px;
+  line-height: 1.6;
+}
+
+.checkout-grid {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 24px;
+}
+
+.checkout-card {
+  box-shadow: 0 18px 50px rgba(0, 0, 0, 0.28);
+  padding: 24px;
+}
+
+.movie-summary-top {
+  display: flex;
+  gap: 18px;
+  align-items: flex-start;
+}
+
+.checkout-poster {
+  width: 120px;
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+.section-label {
+  margin: 0 0 8px;
+  color: #ff6b6b;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.movie-summary-card h2,
+.summary-card h2 {
+  margin: 0 0 12px;
+}
+
+.showtime-line,
+.contact-line {
+  margin: 8px 0 0;
+  color: #b3bcc8;
+  line-height: 1.5;
+}
+
+.email-confirmation-box {
+  margin-top: 18px;
+  padding-top: 18px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.email-input {
+  margin-top: 10px;
+}
+
+.email-error {
+  margin: 8px 0 0;
+  color: #ff8d8d;
+  font-size: 0.92rem;
+}
+
+.summary-table {
+  display: grid;
+  gap: 12px;
+  margin-top: 8px;
+}
+
+.summary-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  color: #d7dce3;
+}
+
+.ticket-row span:last-child,
+.total-row span:last-child {
+  font-weight: 700;
+}
+
+.total-row {
+  padding-top: 14px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  font-size: 18px;
+}
+
+.discount-row {
+  color: #4ade80;
+  font-weight: 500;
+}
+
+.subtotal-after-discount-row {
+  padding-top: 8px;
+  border-top: 1px solid rgba(255, 255, 255, 0.04);
+  color: #b3bcc8;
+  font-size: 0.95rem;
+}
+
+.promo-code-section {
+  margin-top: 18px;
+  padding-top: 18px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.promo-input-group {
+  display: flex;
+  gap: 8px;
+}
+
+.promo-input {
+  flex: 1;
+  min-width: 0;
+}
+
+.apply-promo-btn {
+  padding: 10px 16px;
+  white-space: nowrap;
+  border-radius: 10px;
+  font-size: 0.95rem;
+}
+
+.apply-promo-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.promo-applied-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 14px;
+  background: rgba(74, 222, 128, 0.1);
+  border: 1px solid rgba(74, 222, 128, 0.3);
+  border-radius: 10px;
+}
+
+.promo-applied-content {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.promo-code-badge {
+  display: inline-block;
+  padding: 6px 12px;
+  background: rgba(74, 222, 128, 0.2);
+  border: 1px solid rgba(74, 222, 128, 0.5);
+  border-radius: 6px;
+  font-weight: 700;
+  color: #4ade80;
+  font-size: 0.9rem;
+}
+
+.promo-discount-text {
+  color: #4ade80;
+  font-size: 0.95rem;
+}
+
+.promo-remove-btn {
+  padding: 6px 12px;
+  background: transparent;
+  border: 1px solid rgba(255, 107, 107, 0.5);
+  color: #ffb4b4;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  font-weight: 600;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.promo-remove-btn:hover {
+  background: rgba(255, 107, 107, 0.1);
+  border-color: rgba(255, 107, 107, 0.8);
+}
+
+.promo-error {
+  margin: 8px 0 0;
+  color: #ff8d8d;
+  font-size: 0.92rem;
+}
+
+.promo-success {
+  margin: 8px 0 0;
+  color: #4ade80;
+  font-size: 0.92rem;
+  font-weight: 500;
+}
+
+.confirm-btn {
+  margin-top: 22px;
+  padding: 14px 18px;
+  border-radius: 14px;
+}
+
+.back-link {
+  color: #ffb4b4;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+.loading-card {
+  text-align: center;
+}
+
+@media (max-width: 900px) {
+  .checkout-header,
+  .movie-summary-top {
+    flex-direction: column;
+  }
+
+  .checkout-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .checkout-poster {
+    width: 100px;
+  }
+}
